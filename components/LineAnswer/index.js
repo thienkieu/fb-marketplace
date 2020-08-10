@@ -48,7 +48,7 @@ const LineAnswer = ({title}) => {
       redirect: 'follow'
 		};
 
-    fetch("http://localhost:3001/facebook/product/"+getProductId()+'/answers', requestOptions)
+    fetch("https://fb-autochat-backend.herokuapp.com/facebook/product/"+getProductId()+'/answers', requestOptions)
       .then(response => response.json())
       .then(data => {
         console.log(data);
@@ -92,7 +92,7 @@ const LineAnswer = ({title}) => {
 			redirect: 'follow'
 		};
 
-    const url = update ? 'http://localhost:3001/facebook/updateAnswer': 'http://localhost:3001/facebook/addAnswer';
+    const url = update ? 'https://fb-autochat-backend.herokuapp.com/facebook/updateAnswer': 'https://fb-autochat-backend.herokuapp.com/facebook/addAnswer';
     fetch(url, requestOptions)
       .then(response => response.json())
       .then(data => {

@@ -95,7 +95,7 @@ const Register = (props) => {
            type: {
             email: email,
             password: password,
-            redirectUrl: "http://localhost:3000/account-confirm/"
+            redirectUrl: "https://fb-autochat-backend.herokuapp.com/account-confirm/"
            }
         }
       });

@@ -101,7 +101,7 @@ const Home = ({t}) => {
 			redirect: 'follow'
 		};
 
-    fetch("http://localhost:3001/facebook/products/"+id+'/'+page, requestOptions)
+    fetch("https://fb-autochat-backend.herokuapp.com/facebook/products/"+id+'/'+page, requestOptions)
       .then(response => response.json())
       .then(data => {
         const p = groupProductByFacebookId(data);
@@ -123,7 +123,7 @@ const Home = ({t}) => {
 			redirect: 'follow'
 		};
 
-    fetch("http://localhost:3001/facebook/accounts", requestOptions)
+    fetch("https://fb-autochat-backend.herokuapp.com/facebook/accounts", requestOptions)
       .then(response => response.json())
       .then(data => {
         setAccounts(data);
