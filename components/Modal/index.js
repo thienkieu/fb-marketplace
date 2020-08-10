@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+/*import styled from 'styled-components';
 import { Modal, ModalHeader, ModalBody } from 'reactstrap';
 
 const TitleModal = styled.div`
@@ -27,3 +27,4 @@ const CommonModal = (props) => {
 }
 
 export default CommonModal;
+*/
