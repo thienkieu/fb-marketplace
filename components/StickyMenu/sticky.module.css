@@ -1,0 +1,18 @@
+.sticky-hidden {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    display: none;
+}
+
+.sticky-display {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    display: block;
+    z-index: 10;
+    padding: 15px 0px;
+    border-bottom:  1px solid lightgray;
+}
