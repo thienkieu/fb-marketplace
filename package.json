@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "web": "NODE_ENV=development node server.js"
+    "web": "NODE_ENV=next dev"
   },
   "dependencies": {
     "@apollo/link-error": "^2.0.0-beta.3",
